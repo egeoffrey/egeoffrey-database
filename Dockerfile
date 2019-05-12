@@ -1,1 +1,2 @@
-FROM redis:alpine
+ARG ARCHITECTURE
+FROM $ARCHITECTURE/redis:alpine
