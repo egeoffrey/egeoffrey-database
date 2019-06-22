@@ -2,7 +2,7 @@ package: myhouse-database
 revision: 1
 version: development
 github: myhouse-project/myhouse-database
-dockerhub: myhouse-project/myhouse-database
+dockerhub: myhouseproject/myhouse-database
 container_config: 
   volumes:
     - ./data/database:/data
