@@ -1,14 +1,15 @@
-manifest_schema: 1
-package: myhouse-database
-revision: 1
-version: development
-github: myhouse-project/myhouse-database
-dockerhub: myhouseproject/myhouse-database
-container_config: 
-  volumes:
-    - ./data/database:/data
+branch: development
+container_config:
   ports:
-    - "6379:6379"
+  - 6379:6379
+  volumes:
+  - ./data/database:/data
 description: Runs myHouse database for storing sensors' information
-tags: database
+dockerhub: myhouseproject/myhouse-database
+github: myhouse-project/myhouse-database
+manifest_schema: 2
 modules: []
+package: myhouse-database
+revision: 2
+tags: database
+version: 1.0
