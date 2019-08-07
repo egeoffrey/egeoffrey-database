@@ -4,13 +4,13 @@ container_config:
   - 6379:6379
   volumes:
   - ./data/database:/data
-description: Runs myHouse database for storing sensors' information
-dockerhub: myhouseproject/myhouse-database
-github: myhouse-project/myhouse-database
+description: Runs eGeoffrey database for storing sensors' information
+dockerhub: egeoffrey/egeoffrey-database
+github: egeoffrey/egeoffrey-database
 icon: database
 manifest_schema: 2
 modules: []
-package: myhouse-database
-revision: 3
+package: egeoffrey-database
+revision: 4
 tags: database
 version: 1.0
