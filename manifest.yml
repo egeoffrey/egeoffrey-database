@@ -3,7 +3,7 @@ container_config:
   ports:
   - 6379:6379
   volumes:
-  - ./data/database:/data
+  - ./data/database:/database/data
 description: Runs eGeoffrey database for storing sensors' information
 dockerhub: egeoffrey/egeoffrey-database
 github: egeoffrey/egeoffrey-database
@@ -11,6 +11,6 @@ icon: database
 manifest_schema: 2
 modules: []
 package: egeoffrey-database
-revision: 4
+revision: 5
 tags: database
 version: 1.0
