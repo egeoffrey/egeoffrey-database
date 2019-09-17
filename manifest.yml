@@ -12,6 +12,6 @@ icon: database
 manifest_schema: 2
 modules: []
 package: egeoffrey-database
-revision: 6
+revision: 7
 tags: database
 version: 1.0
