@@ -1,4 +1,4 @@
-branch: development
+branch: master
 container_config:
   ports:
   - 6379:6379
@@ -12,6 +12,6 @@ icon: database
 manifest_schema: 2
 modules: []
 package: egeoffrey-database
-revision: 7
+revision: 8
 tags: database
 version: 1.0
