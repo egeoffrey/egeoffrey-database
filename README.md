@@ -55,4 +55,4 @@ database
 
 ## Version
 
-The version of this egeoffrey-database is 1.0-8 on the master branch.
+The version of this egeoffrey-database is 1.0-9 on the master branch.
