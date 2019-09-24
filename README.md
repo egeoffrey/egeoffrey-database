@@ -35,7 +35,6 @@ To function properly, when running in a Docker container, the following addition
 ports:
 - 6379:6379
 volumes:
-- ./data/database/config:/database/config
 - ./data/database/data:/database/data
 ```
 
@@ -55,4 +54,4 @@ database
 
 ## Version
 
-The version of this egeoffrey-database is 1.0-9 on the master branch.
+The version of this egeoffrey-database is 1.0-10 on the master branch.
